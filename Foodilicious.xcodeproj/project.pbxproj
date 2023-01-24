@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		DD4F5F382972EEDD008EA29E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F5F372972EEDD008EA29E /* AppDelegate.swift */; };
 		DD4F5F3A2972EEDD008EA29E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F5F392972EEDD008EA29E /* SceneDelegate.swift */; };
-		DD4F5F3C2972EEDD008EA29E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F5F3B2972EEDD008EA29E /* ViewController.swift */; };
 		DD4F5F3F2972EEDD008EA29E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4F5F3D2972EEDD008EA29E /* Main.storyboard */; };
 		DD4F5F412972EEDE008EA29E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4F5F402972EEDE008EA29E /* Assets.xcassets */; };
 		DD4F5F442972EEDE008EA29E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4F5F422972EEDE008EA29E /* LaunchScreen.storyboard */; };
+		DD4F5F8C297EE0F4008EA29E /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F5F8B297EE0F4008EA29E /* OnboardingViewController.swift */; };
+		DD4F5F8F297EE3DD008EA29E /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F5F8E297EE3DD008EA29E /* UIView+Ext.swift */; };
+		DD4F5F91297EE484008EA29E /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F5F90297EE484008EA29E /* OnboardingSlide.swift */; };
+		DD4F5F93297EE6CA008EA29E /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F5F92297EE6CA008EA29E /* OnboardingCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD4F5F342972EEDD008EA29E /* Foodilicious.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodilicious.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4F5F372972EEDD008EA29E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD4F5F392972EEDD008EA29E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DD4F5F3B2972EEDD008EA29E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DD4F5F3E2972EEDD008EA29E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD4F5F402972EEDE008EA29E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD4F5F432972EEDE008EA29E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD4F5F452972EEDE008EA29E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD4F5F8B297EE0F4008EA29E /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		DD4F5F8E297EE3DD008EA29E /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		DD4F5F90297EE484008EA29E /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
+		DD4F5F92297EE6CA008EA29E /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,66 @@
 		DD4F5F362972EEDD008EA29E /* Foodilicious */ = {
 			isa = PBXGroup;
 			children = (
+				DD4F5F8D297EE3C8008EA29E /* Extensions */,
+				DD4F5F89297EE0C1008EA29E /* CustomViews */,
+				DD4F5F88297EE0B0008EA29E /* Views */,
+				DD4F5F87297EE0A4008EA29E /* Models */,
 				DD4F5F372972EEDD008EA29E /* AppDelegate.swift */,
 				DD4F5F392972EEDD008EA29E /* SceneDelegate.swift */,
-				DD4F5F3B2972EEDD008EA29E /* ViewController.swift */,
 				DD4F5F3D2972EEDD008EA29E /* Main.storyboard */,
 				DD4F5F402972EEDE008EA29E /* Assets.xcassets */,
 				DD4F5F422972EEDE008EA29E /* LaunchScreen.storyboard */,
 				DD4F5F452972EEDE008EA29E /* Info.plist */,
 			);
 			path = Foodilicious;
+			sourceTree = "<group>";
+		};
+		DD4F5F87297EE0A4008EA29E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DD4F5F90297EE484008EA29E /* OnboardingSlide.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DD4F5F88297EE0B0008EA29E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD4F5F9429806F0D008EA29E /* Home */,
+				DD4F5F8A297EE0CE008EA29E /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DD4F5F89297EE0C1008EA29E /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		DD4F5F8A297EE0CE008EA29E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				DD4F5F8B297EE0F4008EA29E /* OnboardingViewController.swift */,
+				DD4F5F92297EE6CA008EA29E /* OnboardingCollectionViewCell.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		DD4F5F8D297EE3C8008EA29E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DD4F5F8E297EE3DD008EA29E /* UIView+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DD4F5F9429806F0D008EA29E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +195,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD4F5F3C2972EEDD008EA29E /* ViewController.swift in Sources */,
+				DD4F5F91297EE484008EA29E /* OnboardingSlide.swift in Sources */,
+				DD4F5F8F297EE3DD008EA29E /* UIView+Ext.swift in Sources */,
 				DD4F5F382972EEDD008EA29E /* AppDelegate.swift in Sources */,
 				DD4F5F3A2972EEDD008EA29E /* SceneDelegate.swift in Sources */,
+				DD4F5F8C297EE0F4008EA29E /* OnboardingViewController.swift in Sources */,
+				DD4F5F93297EE6CA008EA29E /* OnboardingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
