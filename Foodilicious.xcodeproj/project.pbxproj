@@ -16,6 +16,7 @@
 		DD4F5F8F297EE3DD008EA29E /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F5F8E297EE3DD008EA29E /* UIView+Ext.swift */; };
 		DD4F5F91297EE484008EA29E /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F5F90297EE484008EA29E /* OnboardingSlide.swift */; };
 		DD4F5F93297EE6CA008EA29E /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F5F92297EE6CA008EA29E /* OnboardingCollectionViewCell.swift */; };
+		DDAE2EE829806FCA00A68B82 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAE2EE729806FCA00A68B82 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		DD4F5F8E297EE3DD008EA29E /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		DD4F5F90297EE484008EA29E /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
 		DD4F5F92297EE6CA008EA29E /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		DDAE2EE729806FCA00A68B82 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		DD4F5F9429806F0D008EA29E /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				DDAE2EE729806FCA00A68B82 /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				DD4F5F382972EEDD008EA29E /* AppDelegate.swift in Sources */,
 				DD4F5F3A2972EEDD008EA29E /* SceneDelegate.swift in Sources */,
 				DD4F5F8C297EE0F4008EA29E /* OnboardingViewController.swift in Sources */,
+				DDAE2EE829806FCA00A68B82 /* HomeViewController.swift in Sources */,
 				DD4F5F93297EE6CA008EA29E /* OnboardingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
