@@ -1,0 +1,6 @@
+framework module Pods_Foodilicious {
+  umbrella header "Pods-Foodilicious-umbrella.h"
+
+  export *
+  module * { export * }
+}
