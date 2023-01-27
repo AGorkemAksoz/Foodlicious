@@ -17,7 +17,7 @@ class CategoryCollectionViewCell: UICollectionViewCell {
     
     func setup(category: DishCategory) {
         categoryTitleLabel.text = category.name
-        categoryImageView.kf.setImage(with: category.image.asUrl)
+        categoryImageView.kf.setImage(with: category.image?.asUrl)
     }
 
 }
