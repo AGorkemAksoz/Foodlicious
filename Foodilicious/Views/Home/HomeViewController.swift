@@ -32,6 +32,7 @@ class HomeViewController: UIViewController {
     var specials: [Dish] = [
         .init(id: "id1", name: "Fried Plantain", description: "This is my favourite dish.", image: "https://picsum.photos/100/200", calories: 102),
         .init(id: "id1", name: "Beans and Garri", description: "This is the best I have ever tasted", image: "https://picsum.photos/100/200", calories: 453),
+    
     ]
     
     override func viewDidLoad() {
@@ -84,5 +85,16 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
 
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if collectionView == categoryCollectionView {
+            let controller = ListDishesViewController.instantiate()
+            controller.category = categories[indexPath.row]
+            navigationController?.pushViewController(controller, animated: true)
+        } else {
+            let controller = DishDetailViewController.instantiate()
+            controller.dish = collectionView == popularCollectionView ? populars[indexPath.row] : specials[indexPath.row]
+            navigationController?.pushViewController(controller, animated: true)
+        }
+    }
     
 }
