@@ -35,6 +35,9 @@
 		DDBBACD229845E3A0044AD0D /* ListDishesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBBACD129845E3A0044AD0D /* ListDishesViewController.swift */; };
 		DDBBACD5298469950044AD0D /* ListOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBBACD4298469950044AD0D /* ListOrdersViewController.swift */; };
 		DDBBACD729846ACE0044AD0D /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBBACD629846ACE0044AD0D /* Order.swift */; };
+		DDBBACDA2986B6D80044AD0D /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBBACD92986B6D80044AD0D /* NetworkService.swift */; };
+		DDBBACDC2986B84D0044AD0D /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBBACDB2986B84D0044AD0D /* Route.swift */; };
+		DDBBACDE2986B8B90044AD0D /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBBACDD2986B8B90044AD0D /* Method.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +73,9 @@
 		DDBBACD129845E3A0044AD0D /* ListDishesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDishesViewController.swift; sourceTree = "<group>"; };
 		DDBBACD4298469950044AD0D /* ListOrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOrdersViewController.swift; sourceTree = "<group>"; };
 		DDBBACD629846ACE0044AD0D /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		DDBBACD92986B6D80044AD0D /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		DDBBACDB2986B84D0044AD0D /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		DDBBACDD2986B8B90044AD0D /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,7 @@
 		DD4F5F362972EEDD008EA29E /* Foodilicious */ = {
 			isa = PBXGroup;
 			children = (
+				DDBBACD82986B6C50044AD0D /* Networking */,
 				DD4F5F8D297EE3C8008EA29E /* Extensions */,
 				DD4F5F89297EE0C1008EA29E /* CustomViews */,
 				DD4F5F88297EE0B0008EA29E /* Views */,
@@ -274,6 +281,16 @@
 			path = ListOrders;
 			sourceTree = "<group>";
 		};
+		DDBBACD82986B6C50044AD0D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				DDBBACD92986B6D80044AD0D /* NetworkService.swift */,
+				DDBBACDB2986B84D0044AD0D /* Route.swift */,
+				DDBBACDD2986B8B90044AD0D /* Method.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		E79306D0CAB7655CA3082DF8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -409,11 +426,14 @@
 				DDBBACB02982B0930044AD0D /* CategoryCollectionViewCell.swift in Sources */,
 				DD4F5F91297EE484008EA29E /* OnboardingSlide.swift in Sources */,
 				DD4F5F8F297EE3DD008EA29E /* UIView+Ext.swift in Sources */,
+				DDBBACDE2986B8B90044AD0D /* Method.swift in Sources */,
 				DD4F5F382972EEDD008EA29E /* AppDelegate.swift in Sources */,
 				DD4F5F3A2972EEDD008EA29E /* SceneDelegate.swift in Sources */,
 				DDBBACC7298409730044AD0D /* DishDetailViewController.swift in Sources */,
 				DD4F5F8C297EE0F4008EA29E /* OnboardingViewController.swift in Sources */,
 				DDAE2EE829806FCA00A68B82 /* HomeViewController.swift in Sources */,
+				DDBBACDC2986B84D0044AD0D /* Route.swift in Sources */,
+				DDBBACDA2986B6D80044AD0D /* NetworkService.swift in Sources */,
 				DDBBACC32982D9950044AD0D /* DishLandscapeCollectionViewCell.swift in Sources */,
 				DDBBACB32982B3210044AD0D /* DishCategory.swift in Sources */,
 				DDBBACB52982B4BB0044AD0D /* String+Ext.swift in Sources */,
