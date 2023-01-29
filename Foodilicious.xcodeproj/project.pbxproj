@@ -38,6 +38,7 @@
 		DDBBACDA2986B6D80044AD0D /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBBACD92986B6D80044AD0D /* NetworkService.swift */; };
 		DDBBACDC2986B84D0044AD0D /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBBACDB2986B84D0044AD0D /* Route.swift */; };
 		DDBBACDE2986B8B90044AD0D /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBBACDD2986B8B90044AD0D /* Method.swift */; };
+		DDBBACE02986C5310044AD0D /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBBACDF2986C5310044AD0D /* AppError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		DDBBACD92986B6D80044AD0D /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		DDBBACDB2986B84D0044AD0D /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 		DDBBACDD2986B8B90044AD0D /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
+		DDBBACDF2986C5310044AD0D /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -287,6 +289,7 @@
 				DDBBACD92986B6D80044AD0D /* NetworkService.swift */,
 				DDBBACDB2986B84D0044AD0D /* Route.swift */,
 				DDBBACDD2986B8B90044AD0D /* Method.swift */,
+				DDBBACDF2986C5310044AD0D /* AppError.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 				DDBBACB32982B3210044AD0D /* DishCategory.swift in Sources */,
 				DDBBACB52982B4BB0044AD0D /* String+Ext.swift in Sources */,
 				DDBBACD229845E3A0044AD0D /* ListDishesViewController.swift in Sources */,
+				DDBBACE02986C5310044AD0D /* AppError.swift in Sources */,
 				DDBBACB82982B8170044AD0D /* CardView.swift in Sources */,
 				DDBBACBF2982BD740044AD0D /* Dish.swift in Sources */,
 				DD4F5F93297EE6CA008EA29E /* OnboardingCollectionViewCell.swift in Sources */,

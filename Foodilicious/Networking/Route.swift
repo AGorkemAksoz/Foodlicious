@@ -16,7 +16,7 @@ enum Route {
         switch self {
             
         case .temp:
-            return "/temp"
+            return "/dish-categories"
         }
     }
 }
