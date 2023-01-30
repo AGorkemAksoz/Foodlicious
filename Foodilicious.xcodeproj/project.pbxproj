@@ -41,6 +41,7 @@
 		DDBBACE02986C5310044AD0D /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBBACDF2986C5310044AD0D /* AppError.swift */; };
 		DDBBACE22987CA710044AD0D /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBBACE12987CA710044AD0D /* ApiResponse.swift */; };
 		DDBBACE42987D33F0044AD0D /* AllDishes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBBACE32987D33F0044AD0D /* AllDishes.swift */; };
+		DDBBACE62987FB460044AD0D /* UserDefaults+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBBACE52987FB460044AD0D /* UserDefaults+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		DDBBACDF2986C5310044AD0D /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		DDBBACE12987CA710044AD0D /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
 		DDBBACE32987D33F0044AD0D /* AllDishes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDishes.swift; sourceTree = "<group>"; };
+		DDBBACE52987FB460044AD0D /* UserDefaults+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 				DD4F5F8E297EE3DD008EA29E /* UIView+Ext.swift */,
 				DDBBACB42982B4BB0044AD0D /* String+Ext.swift */,
 				DDBBACC829840B6A0044AD0D /* UIViewController+Extension.swift */,
+				DDBBACE52987FB460044AD0D /* UserDefaults+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -441,6 +444,7 @@
 				DD4F5F3A2972EEDD008EA29E /* SceneDelegate.swift in Sources */,
 				DDBBACC7298409730044AD0D /* DishDetailViewController.swift in Sources */,
 				DD4F5F8C297EE0F4008EA29E /* OnboardingViewController.swift in Sources */,
+				DDBBACE62987FB460044AD0D /* UserDefaults+Ext.swift in Sources */,
 				DDBBACE22987CA710044AD0D /* ApiResponse.swift in Sources */,
 				DDAE2EE829806FCA00A68B82 /* HomeViewController.swift in Sources */,
 				DDBBACDC2986B84D0044AD0D /* Route.swift in Sources */,
@@ -605,7 +609,6 @@
 				INFOPLIST_FILE = Foodilicious/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -634,7 +637,6 @@
 				INFOPLIST_FILE = Foodilicious/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
