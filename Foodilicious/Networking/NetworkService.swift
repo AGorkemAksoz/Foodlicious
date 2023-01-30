@@ -21,6 +21,10 @@ struct NetworkService {
         request(route: .placeOrder(dishId), method: .post,parameters: params, completion: completion)
     }
     
+    func fetchCategoryDishes(categoryId: String, completion: @escaping (Result<[Dish], AppError>) -> ()) {
+        request(route: .fetchCategoryDishes(categoryId), method: .get, completion: completion)
+    }
+    
     private func request<T: Decodable>(route: Route,
                                      method: Method,
                                      parameters: [String: Any]? = nil,
@@ -35,7 +39,7 @@ struct NetworkService {
             var result: Result<Data, Error>?
             if let data = data {
                 result = .success(data)
-                let responseString = String(data: data, encoding: .utf8) ?? "Could not stringfy response"
+                let _ = String(data: data, encoding: .utf8) ?? "Could not stringfy response"
 //                print("The response is:\n \(responseString)")
             } else if let error = error {
                 result = .failure(error)
