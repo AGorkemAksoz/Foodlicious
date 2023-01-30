@@ -1,20 +1,24 @@
 PODS:
+  - IQKeyboardManagerSwift (6.5.11)
   - Kingfisher (7.5.0)
   - ProgressHUD (13.6.2)
 
 DEPENDENCIES:
+  - IQKeyboardManagerSwift
   - Kingfisher
   - ProgressHUD
 
 SPEC REPOS:
   trunk:
+    - IQKeyboardManagerSwift
     - Kingfisher
     - ProgressHUD
 
 SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
   Kingfisher: b9c2a4a4af2990a768445c277359b27bde287d71
   ProgressHUD: 355915c8f033e626788fa9b0d99d06e8691595ab
 
-PODFILE CHECKSUM: 072fa2cd677c40940719bc136e1bac44c2fca63f
+PODFILE CHECKSUM: 6f511db806e751b9792a1cf3096f8de5eeb011b8
 
 COCOAPODS: 1.11.3
