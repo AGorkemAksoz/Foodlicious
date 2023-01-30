@@ -10,12 +10,12 @@ import Foundation
 enum Route {
     static let baseUrl = "https://yummie.glitch.me"
     
-    case temp
+    case fetchAllCategories
     
     var descrtiption: String {
         switch self {
             
-        case .temp:
+        case .fetchAllCategories:
             return "/dish-categories"
         }
     }
